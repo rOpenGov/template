@@ -1,3 +1,5 @@
+#' @import dplyr
+
 .onAttach <- function(lib, pkg)
 {
 

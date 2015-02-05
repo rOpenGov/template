@@ -13,7 +13,7 @@ URL: http://github.com/ropengov/template
 Depends:
     R (>= 3.0.2)
 Imports:
-    plyr
+    dplyr
 Suggests:
     knitr,
     rmarkdown
