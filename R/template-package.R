@@ -9,12 +9,11 @@
 #' LazyLoad: \tab yes\cr
 #' }
 #'
-#' Template package
 #'
 #' @name template-package
 #' @aliases template
 #' @docType package
-#' @title 
+#' @title template
 #'
 #' @author Leo Lahti, \email{leo.lahti@@iki.fi}
 #' @references
