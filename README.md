@@ -1,4 +1,4 @@
-sorvi
+Template package
 =====
 
 [![Build Status](https://api.travis-ci.org/rOpenGov/template.png)](https://travis-ci.org/rOpenGov/template)
