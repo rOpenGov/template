@@ -1,0 +1,20 @@
+Package: template
+Type: Package
+Title: Package Title
+Version: 0.1.10
+Date: 2015-02-03
+Author: Leo Lahti
+Maintainer: Leo Lahti <leo.lahti@iki.fi>
+Description: Description of package
+License: BSD_2_clause + file LICENSE
+VignetteBuilder: knitr
+BugReports: https://github.com/ropengov/template/issues
+URL: http://github.com/ropengov/template
+Depends:
+    R (>= 3.0.2)
+Imports:
+    plyr
+Suggests:
+    knitr,
+    rmarkdown
+LazyLoad: yes

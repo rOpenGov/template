@@ -1,0 +1,76 @@
+---
+title: "template tutorial"
+author: rOpenGov core team
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: flatly
+---
+<!--
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteIndexEntry{template Markdown Vignette}
+%\usepackage[utf8]{inputenc}
+-->
+
+
+Template package
+===========
+
+This R package provides a template for new packages. Your [bug reports and other
+feedback](https://github.com/ropengov/template) are welcome! 
+
+
+## Installation
+
+Test the installation by loading the library:
+
+```{r test, message=FALSE, warning=FALSE, eval=TRUE}
+library(template)
+```
+
+Development version for developers:
+
+```{r install2, eval=FALSE}
+library(devtools)
+install_github("ropengov/template")
+```
+
+We also recommend setting the UTF-8 encoding:
+
+```{r locale, eval=FALSE}
+Sys.setlocale(locale="UTF-8") 
+```
+
+
+**Validate Finnish personal identification number:**
+
+```{r hetu2, fig.message=FALSE}
+valid_hetu("010101-0101") # TRUE/FALSE
+```
+
+```{r regressionline, message=FALSE, eval=TRUE, fig.width=10, fig.height=5}
+data(iris)
+plot(Sepal.Length ~ Sepal.Width, iris) 
+```
+
+## Licensing and Citations
+
+This work can be freely used, modified and distributed under the 
+[Two-clause BSD license](http://en.wikipedia.org/wiki/BSD\_licenses).
+
+```{r citation, message=FALSE, eval=TRUE}
+citation("template")
+```
+
+## Session info
+
+This vignette was created with
+
+```{r sessioninfo, message=FALSE, warning=FALSE}
+sessionInfo()
+```
+
+
+
+
+
