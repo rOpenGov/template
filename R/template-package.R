@@ -9,6 +9,8 @@
 #' LazyLoad: \tab yes\cr
 #' }
 #'
+#' Template package
+#'
 #' @name template-package
 #' @aliases template
 #' @docType package
